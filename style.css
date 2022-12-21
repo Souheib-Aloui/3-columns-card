@@ -1,0 +1,144 @@
+
+
+:root {
+--Bright-orange: hsl(31, 77%, 52%);
+--Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark-cyan: hsl(179, 100%, 13%);
+
+--Transparent-white: hsla(0, 0%, 100%, 0.75); 
+/* paragraph  */
+--Very-light-gray: hsl(0, 0%, 95%);
+/* (background, headings, buttons) */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .card {
+    border-radius: 12px;
+    margin: 1rem;
+    overflow: hidden;
+  }
+  .sedan {
+    background-color: var(--Bright-orange);
+  }
+  .suvs {
+    background-color: var(--Dark-cyan);
+  }
+  .luxury {
+    background-color: var(--Very-dark-cyan);
+  }
+  .car-category {
+    padding: 2.5rem;
+  }
+  .car-category  > * {
+    margin: 1rem;
+  }
+  .svg-container img {
+    max-width: 100%;
+  }
+  .category-name {
+    color: var(--Very-light-gray);
+    font-weight: 700;
+    font-family:  'Big Shoulders Display', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+
+  }
+  p {
+    color: var(--Transparent-white);
+    line-height: 1.5;
+  }
+  .btn { 
+    background-color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    padding: 14px 24px;
+    border-radius: 24px;
+    border: 1px solid var(--Transparent-white) ;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    
+  }
+  .btn:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  .first-color {
+    color: var(--Bright-orange);
+  }
+  .second-color {
+    color: var(--Dark-cyan);
+  }
+  .third-color {
+    color: var(--Very-dark-cyan);
+  }
+   
+  @media (min-width: 768px) {
+    .card {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+    }
+   
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; }
+.attribution a {
+   color: hsl(228, 45%, 44%); }
+
